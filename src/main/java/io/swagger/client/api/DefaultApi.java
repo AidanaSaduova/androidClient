@@ -37,7 +37,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeoutException;
 
 public class DefaultApi {
-  String basePath = "https://localhost:9000/api";
+  String basePath = "http://10.0.2.2:9000/api";
   ApiInvoker apiInvoker = ApiInvoker.getInstance();
 
   public void addHeader(String key, String value) {
